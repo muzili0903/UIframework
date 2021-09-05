@@ -1,0 +1,2 @@
+create=False
+multi={'id':'email', 'content':'@cont1[test900]', 's_tp':'value'}#输入账号

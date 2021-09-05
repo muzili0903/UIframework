@@ -1,0 +1,3 @@
+create=False
+input={'id':'email', 'content':'$username'}#输入账号
+input={'id':'pwd', 'content':'$password'}#输入账号

@@ -1,0 +1,8 @@
+        create=True
+confirm
+parentFrame#返回上一层
+save={'id':'email', 'content':'&2584167983'}#输入账号
+multi={'id':'email', 'content':'@cont[test900]', 's_tp':'value'}#输入账号
+multi={'id':'email', 'content':'@cont1[test909]', 's_tp':'value'}#输入账号
+multi={'id':'email', 'content':'@cont2[test909]', 's_tp':'value'}#输入账号
+input={'id':'email', 'content':'$content'}#输入账号

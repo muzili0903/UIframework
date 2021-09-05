@@ -1,0 +1,66 @@
+************************************
+*create=True必写 且写在文件的第一行
+*True：代表次数运行生成test.py文件
+*False: 代表次数运行不生成test.py文件
+*存在相应的test.py文件，再次运行，将会重新生成新的test.py文件
+
+*文件名需要与用例编号一致，否则将获取不到excel的变量值
+*excel模块见示例模板
+************************************
+写脚本格式：
+keyword=dict#annotation -> keyword : 必填 [=dict : 选填][#annotation : 选填]
+示例1：文本框输入内容
+input={'id':'email', 'content':'23@qq.com'}#输入账号
+input -> 方法名
+'id':'email' -> 定位方式 : 元素位置
+'content':'23@qq.com' -> 关键字 : 输入内容
+#输入账号 -> 注释说明
+
+示例2：文本框输入内容
+input={'id':'email', 'content':'$content'}#输入账号
+'content':'$content' -> 关键字 : $content ($ : 案例变量修饰符, content : 代表案例变量的名称, 变量值从测试案例excel获取)
+'content':'@content' -> 关键字 : @content (@ : 案例临时变量修饰符, content : 案例临时变量修饰符, 变量值从本脚本保存的变量值获取)
+'content':'@content[file_name]' -> 关键字 : @content[file_name] (content[file_name] : 案例临时变量修饰符, 变量值从指定脚本(file_name)保存的变量值获取)
+注意：同个脚本不可命名相同的变量。否则相互覆盖
+
+示例3：保存页面上的元素值
+save={'id':'email', 'content':'&content'}#保存元素值
+'content':'&content' -> 关键字 ：&content (& : 保存变量修饰符, content : 代表在页面上获取值并保存在content变量中)
+若本脚本需要用到刚保存的变量值，可以使用 @content 的方式获取
+若其它脚本需要用到刚保存的变量值，可以使用 @content[file_name] 的方式获取
+###############################################################################
+keyword函数有：
+clearAndInput -> 清除默认值，输入新内容
+input -> 直接输入内容
+getText -> 获取文本框内容
+click -> 点击
+radio -> 单选框
+single -> 下拉框
+checkboxOne -> 多选框选中其中一个元素
+checkboxAll -> 多选框选中全部
+delCheckbox -> 取消选中的多选框
+multi -> 勾选复选框
+delMulti -> 取消复选框选中的值
+delAllMulti -> 取消复选框所有选中的值
+confirm -> 点击弹框确定按钮
+cancel -> 点击弹框取消按钮
+enterFrame -> 进入frame
+quitFrame -> 退出frame,回到主页面
+parentFrame -> 返回上一层frame
+window -> 切换窗口
+save -> 保存页面元素值
+函数传参个数可以查看 \UIframework\commons\methodMap.py 中的 METHODS 字典
+###############################################################################
+定位方式有：
+'xp' : xpath 定位
+'id' : id 定位
+'css' : css 定位
+'cls' : class 定位
+'name' : name 定位
+'lk' : link 定位
+'plk' : partial_link 定位
+'tag' : tag 定位
+s_tp类型有：
+text : 文本
+value : 值
+index : 下标
