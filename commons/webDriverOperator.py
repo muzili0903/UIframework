@@ -54,7 +54,8 @@ class WebDriverOperator(object):
         elif tp == 'tag':
             ele = self.find.by_tag(element)
         else:
-            print('type not exist')
+            logger.err().error('定位类型不存在')
+            raise KeyError('type not exist')
         if ele is not False and index is None:
             return ele[0]
         elif ele is not False and index == '-1':
@@ -251,21 +252,49 @@ class WebDriverOperator(object):
         filename, key = content.split('&')
         GolStatic.set_file_temp(filename=filename, key=key, value=value)
 
-    def save_result(self):
+    def save_result(self, **kwargs):
         """
         保存结果到xls
         :return:
         """
+        tp = kwargs.get('tp')
+        element = kwargs.get('element')
+        filename = kwargs.get('filename')
+        index = kwargs.get('index')
+        read = kwargs.get('read')
+        write = kwargs.get('write')
+        content = kwargs.get('content')
+        if tp is not None and element is not None:
+            ele = self._ele_type(tp, element)
+            content = self.ac.get_ele_text(ele)
+        if index is None:
+            index = 0
+        try:
+            rows = read.get_row_index(col_x=1, value=filename)
+            print("write.post_cell(row_x=rows[index], col_x=17, value=content): ", rows)
+            write.post_cell(row_x=rows[index], col_x=16, value=content)
+        except AttributeError:
+            raise AttributeError('read or write is None')
 
     def save_input(self, **kwargs):
         """
         保存输入数据
         :return:
         """
-        try:
-            tp = kwargs['tp']
-            element = kwargs['element']
+        tp = kwargs.get('tp')
+        element = kwargs.get('element')
+        filename = kwargs.get('filename')
+        index = kwargs.get('index')
+        read = kwargs.get('read')
+        write = kwargs.get('write')
+        content = kwargs.get('content')
+        if tp is not None and element is not None:
             ele = self._ele_type(tp, element)
-            value = self.ac.get_ele_text(ele)
-        except KeyError:
-            raise KeyError("tp或element不存在")
+            content = self.ac.get_ele_text(ele)
+        if index is None:
+            index = 0
+        try:
+            rows = read.get_row_index(col_x=1, value=filename)
+            write.post_cell(row_x=rows[index], col_x=13, value=content)
+        except AttributeError:
+            raise AttributeError('read or write is None')

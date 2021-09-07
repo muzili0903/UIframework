@@ -1,7 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d814628-a947-42fa-ae05-2df4865c3da0" name="Default Changelist" comment="" />
+    <list default="true" id="7d814628-a947-42fa-ae05-2df4865c3da0" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/common.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/common.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/excelOperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/excelOperator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/methodMap.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/methodMap.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/commons/webDriverOperator.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/webDriverOperator.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/errs" beforeDir="false" afterPath="$PROJECT_DIR$/logs/errs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test900" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test900" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/scripts/test_gushiwen" beforeDir="false" afterPath="$PROJECT_DIR$/scripts/test_gushiwen" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test1.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test900.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test900.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/test_gushiwen.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_gushiwen.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/案例模板.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datas/案例模板.xlsx" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -9,10 +23,10 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="CoverageDataManager">
-    <SUITE FILE_PATH="coverage/UIframework$common.coverage" NAME="common Coverage Results" MODIFIED="1630590383906" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/UIframework$common.coverage" NAME="common Coverage Results" MODIFIED="1631019695337" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
     <SUITE FILE_PATH="coverage/UIframework$Unittests_in_test_py.coverage" NAME="Unittests in test.py Coverage Results" MODIFIED="1629464954111" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/UIframework$Unittests_in_test_login_py.coverage" NAME="Unittests in test_login.py Coverage Results" MODIFIED="1628518923985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/UIframework$excelOperator.coverage" NAME="excelOperator Coverage Results" MODIFIED="1630676256346" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/UIframework$excelOperator.coverage" NAME="excelOperator Coverage Results" MODIFIED="1631022718143" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
     <SUITE FILE_PATH="coverage/UIframework$Unittests_for_test_Test_test_1.coverage" NAME="Unittests for test.Test.test_1 Coverage Results" MODIFIED="1629208797016" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/UIframework$Unittests_in_test_gushiwen_py.coverage" NAME="Unittests in test_gushiwen.py Coverage Results" MODIFIED="1629723416354" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/UIframework$pcFindElement.coverage" NAME="pcFindElement Coverage Results" MODIFIED="1626273129763" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons/PC" />
@@ -21,8 +35,8 @@
     <SUITE FILE_PATH="coverage/UIframework$getFileDirs.coverage" NAME="getFileDirs Coverage Results" MODIFIED="1630328241210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
     <SUITE FILE_PATH="coverage/UIframework$Unittests_for_test_login_Login.coverage" NAME="Unittests for test_login.Login Coverage Results" MODIFIED="1627916452179" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/UIframework$Unittests_for_test_Test.coverage" NAME="Unittests for test.Test Coverage Results" MODIFIED="1629208924532" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/UIframework$entrance.coverage" NAME="entrance Coverage Results" MODIFIED="1630584842985" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/UIframework$methodMap.coverage" NAME="methodMap Coverage Results" MODIFIED="1628518275494" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
+    <SUITE FILE_PATH="coverage/UIframework$entrance.coverage" NAME="entrance Coverage Results" MODIFIED="1631023251133" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/UIframework$methodMap.coverage" NAME="methodMap Coverage Results" MODIFIED="1630935084023" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
     <SUITE FILE_PATH="coverage/UIframework$Unittests_for_test_gushi_Login_test_sign.coverage" NAME="Unittests for test_gushi.Login.test_sign Coverage Results" MODIFIED="1627911438588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/UIframework$getConfig.coverage" NAME="getConfig Coverage Results" MODIFIED="1627397493224" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
     <SUITE FILE_PATH="coverage/UIframework$logs.coverage" NAME="logs Coverage Results" MODIFIED="1630333901656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
@@ -36,7 +50,7 @@
     <SUITE FILE_PATH="coverage/UIframework$Unittests_in_test900_py.coverage" NAME="Unittests in test900.py Coverage Results" MODIFIED="1628232525893" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/UIframework$browserOperator.coverage" NAME="browserOperator Coverage Results" MODIFIED="1627397825068" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
     <SUITE FILE_PATH="coverage/UIframework$glo.coverage" NAME="glo Coverage Results" MODIFIED="1629283433153" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/commons" />
-    <SUITE FILE_PATH="coverage/UIframework$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1630502101692" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/UIframework$test1.coverage" NAME="test1 Coverage Results" MODIFIED="1631020295537" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
     <SUITE FILE_PATH="coverage/UIframework$Unittests_in_test111.coverage" NAME="Unittests in test111 Coverage Results" MODIFIED="1628164066210" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
   <component name="FUSProjectUsageTrigger">
@@ -45,43 +59,45 @@
         <counts>
           <entry key="project.closed" value="3" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.4" value="1" />
-          <entry key="project.open.time.5" value="2" />
+          <entry key="project.open.time.4" value="2" />
+          <entry key="project.open.time.5" value="3" />
           <entry key="project.open.time.6" value="2" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="7" />
+          <entry key="project.opened" value="9" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="909" value="1" />
-          <entry key="errs" value="9" />
+          <entry key="errs" value="10" />
           <entry key="gushiwen" value="1" />
-          <entry key="html" value="34" />
-          <entry key="ini" value="6" />
-          <entry key="log" value="9" />
+          <entry key="html" value="45" />
+          <entry key="ini" value="7" />
+          <entry key="log" value="10" />
+          <entry key="md" value="1" />
           <entry key="png" value="8" />
-          <entry key="py" value="341" />
+          <entry key="py" value="363" />
           <entry key="pyi" value="3" />
-          <entry key="readme" value="10" />
+          <entry key="readme" value="12" />
           <entry key="test1" value="1" />
           <entry key="test111" value="6" />
           <entry key="test112" value="1" />
           <entry key="test114" value="1" />
           <entry key="test2" value="1" />
-          <entry key="test900" value="17" />
-          <entry key="test909" value="9" />
-          <entry key="test_gushiwen" value="5" />
+          <entry key="test900" value="20" />
+          <entry key="test909" value="10" />
+          <entry key="test_gushiwen" value="8" />
           <entry key="txt" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="34" />
+          <entry key="HTML" value="45" />
           <entry key="Image" value="8" />
-          <entry key="Ini" value="6" />
-          <entry key="PLAIN_TEXT" value="67" />
-          <entry key="Python" value="349" />
+          <entry key="Ini" value="7" />
+          <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="78" />
+          <entry key="Python" value="371" />
           <entry key="PythonStub" value="3" />
         </counts>
       </usages-collector>
@@ -90,21 +106,21 @@
           <entry key="dummy" value="12" />
           <entry key="errs" value="6" />
           <entry key="gushiwen" value="22" />
-          <entry key="ini" value="132" />
+          <entry key="ini" value="140" />
           <entry key="log" value="5" />
-          <entry key="py" value="20433" />
+          <entry key="py" value="21678" />
           <entry key="readme" value="1244" />
           <entry key="test111" value="18" />
-          <entry key="test900" value="148" />
+          <entry key="test900" value="228" />
           <entry key="test909" value="13" />
-          <entry key="test_gushiwen" value="6" />
+          <entry key="test_gushiwen" value="23" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Ini" value="132" />
-          <entry key="PLAIN_TEXT" value="1456" />
-          <entry key="Python" value="20451" />
+          <entry key="Ini" value="140" />
+          <entry key="PLAIN_TEXT" value="1553" />
+          <entry key="Python" value="21696" />
         </counts>
       </usages-collector>
     </session>
@@ -114,13 +130,29 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commons/excelOperator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="158" column="25" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="25" />
+            <state relative-caret-position="147">
+              <caret line="196" column="9" selection-start-line="196" selection-start-column="9" selection-end-line="196" selection-end-column="9" />
               <folding>
-                <element signature="e#88#103#0" expanded="true" />
-                <marker date="1630826548957" expanded="true" signature="4936:6048" ph="..." />
-                <marker date="1630826548957" expanded="true" signature="6045:6048" ph="..." />
+                <element signature="e#80#95#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907215807report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="168">
+              <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907215830report.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="189">
+              <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
             </state>
           </provider>
         </entry>
@@ -128,8 +160,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/commons/webDriverOperator.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="420">
-              <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+            <state relative-caret-position="320">
+              <caret line="274" column="12" selection-start-line="274" selection-start-column="12" selection-end-line="274" selection-end-column="71" />
               <folding>
                 <element signature="e#91#143#0" expanded="true" />
               </folding>
@@ -140,8 +172,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/entrance.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="14" />
+            <state relative-caret-position="131">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
               <folding>
                 <element signature="e#83#134#0" expanded="true" />
               </folding>
@@ -150,10 +182,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/readme">
+        <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907215245report.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="29" column="47" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="47" />
+            <state relative-caret-position="147">
+              <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
             </state>
           </provider>
         </entry>
@@ -161,29 +193,11 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/commons/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="297" column="28" lean-forward="true" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
+            <state relative-caret-position="313">
+              <caret line="421" selection-start-line="421" selection-end-line="421" />
               <folding>
                 <element signature="e#80#89#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test_gushiwen.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/methodMap.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="25" column="47" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="47" />
             </state>
           </provider>
         </entry>
@@ -199,13 +213,6 @@
   </component>
   <component name="FindInProjectRecents">
     <findStrings>
-      <find>内容</find>
-      <find>index</find>
-      <find>self.</find>
-      <find>element</find>
-      <find>窗口</find>
-      <find>[index]</find>
-      <find>, **kwargs</find>
       <find>get_p</find>
       <find>get_png(self.driver)</find>
       <find>self, tp</find>
@@ -228,7 +235,14 @@
       <find>print</find>
       <find>ELE_TYPE</find>
       <find>find_ele_type</find>
+      <find>excel_data</find>
       <find>get_data_dict</find>
+      <find>find_content(dict_content, contents, filename)</find>
+      <find>xls_find_content(dict_content, contents, filename</find>
+      <find>multi={'id':'email', 'content':'@cont2[test909]', 's_tp':'value'}</find>
+      <find>r_contents</find>
+      <find>dispose_line</find>
+      <find>dict_content = eval(dict_content.strip())</find>
     </findStrings>
     <replaceStrings>
       <replace>section</replace>
@@ -242,6 +256,9 @@
       <replace>filename</replace>
       <replace>logger.err().error</replace>
     </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -268,11 +285,8 @@
         <option value="$PROJECT_DIR$/scripts/gushiwen" />
         <option value="$PROJECT_DIR$/entrance.py" />
         <option value="$PROJECT_DIR$/tests/test900.py" />
-        <option value="$PROJECT_DIR$/commons/methodMap.py" />
         <option value="$PROJECT_DIR$/readme" />
         <option value="$PROJECT_DIR$/commons/getFileDirs.py" />
-        <option value="$PROJECT_DIR$/tests/test1.py" />
-        <option value="$PROJECT_DIR$/configs/config.ini" />
         <option value="$PROJECT_DIR$/commons/logs.py" />
         <option value="$PROJECT_DIR$/commons/PC/pcAlerts.py" />
         <option value="$PROJECT_DIR$/logs/log" />
@@ -280,15 +294,18 @@
         <option value="$PROJECT_DIR$/commons/PC/pcFindElement.py" />
         <option value="$PROJECT_DIR$/commons/PC/pcWaitElement.py" />
         <option value="$PROJECT_DIR$/commons/browserOperator.py" />
-        <option value="$PROJECT_DIR$/scripts/test_gushiwen" />
         <option value="$PROJECT_DIR$/logs/errs" />
-        <option value="$PROJECT_DIR$/scripts/test900" />
         <option value="$PROJECT_DIR$/commons/baseCommons/excelOperator.py" />
         <option value="$PROJECT_DIR$/commons/baseCommons/excel.py" />
-        <option value="$PROJECT_DIR$/commons/excelOperator.py" />
-        <option value="$PROJECT_DIR$/commons/common.py" />
-        <option value="$PROJECT_DIR$/commons/webDriverOperator.py" />
         <option value="$PROJECT_DIR$/tests/test_gushiwen.py" />
+        <option value="$PROJECT_DIR$/commons/methodMap.py" />
+        <option value="$PROJECT_DIR$/configs/config.ini" />
+        <option value="$PROJECT_DIR$/scripts/test_gushiwen" />
+        <option value="$PROJECT_DIR$/scripts/test900" />
+        <option value="$PROJECT_DIR$/tests/test1.py" />
+        <option value="$PROJECT_DIR$/commons/webDriverOperator.py" />
+        <option value="$PROJECT_DIR$/commons/common.py" />
+        <option value="$PROJECT_DIR$/commons/excelOperator.py" />
       </list>
     </option>
   </component>
@@ -304,6 +321,7 @@
     <option name="width" value="1325" />
     <option name="height" value="900" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -325,23 +343,29 @@
             <path>
               <item name="UIframework" type="b2602c69:ProjectViewProjectNode" />
               <item name="UIframework" type="462c0819:PsiDirectoryNode" />
-              <item name="commons" type="462c0819:PsiDirectoryNode" />
-              <item name="baseCommons" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIframework" type="462c0819:PsiDirectoryNode" />
               <item name="datas" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UIframework" type="b2602c69:ProjectViewProjectNode" />
               <item name="UIframework" type="462c0819:PsiDirectoryNode" />
-              <item name="logs" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="UIframework" type="b2602c69:ProjectViewProjectNode" />
               <item name="UIframework" type="462c0819:PsiDirectoryNode" />
-              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UIframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UIframework" type="462c0819:PsiDirectoryNode" />
+              <item name="results" type="462c0819:PsiDirectoryNode" />
+              <item name="screenpicture" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="UIframework" type="b2602c69:ProjectViewProjectNode" />
+              <item name="UIframework" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -358,15 +382,15 @@
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RecentsManager">
-    <key name="CopyFile.RECENT_KEYS">
-      <recent name="E:\project\UIframework\config" />
-    </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="E:\project\UIframework" />
       <recent name="E:\project\UIframework\datas" />
+      <recent name="E:\project\UIframework" />
       <recent name="E:\project\UIframework\commons\PC" />
       <recent name="E:\project\UIframework\drivers" />
       <recent name="E:\project\UIframework\commons" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\project\UIframework\config" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -381,7 +405,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.excelOperator">
+  <component name="RunManager" selected="Python.entrance">
     <configuration name="common" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UIframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -448,7 +472,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="logs" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="methodMap" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="UIframework" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -461,7 +485,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commons/logs.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/commons/methodMap.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -495,17 +519,17 @@
     <list>
       <item itemvalue="Python.common" />
       <item itemvalue="Python.entrance" />
-      <item itemvalue="Python.logs" />
       <item itemvalue="Python.test1" />
       <item itemvalue="Python.excelOperator" />
+      <item itemvalue="Python.methodMap" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.excelOperator" />
-        <item itemvalue="Python.common" />
         <item itemvalue="Python.entrance" />
+        <item itemvalue="Python.excelOperator" />
         <item itemvalue="Python.test1" />
-        <item itemvalue="Python.logs" />
+        <item itemvalue="Python.common" />
+        <item itemvalue="Python.methodMap" />
       </list>
     </recent_temporary>
   </component>
@@ -557,12 +581,12 @@
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20241287" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.18766756" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.3592645" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39660057" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41301274" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -571,7 +595,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32956153" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -630,113 +654,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/tests/test900.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="28" column="26" lean-forward="true" selection-start-line="28" selection-start-column="26" selection-end-line="28" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/spider_py36/Lib/site-packages/xlrd/sheet.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="138">
-          <caret line="552" column="8" selection-start-line="552" selection-start-column="8" selection-end-line="552" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210825203258report.html" />
-    <entry file="file://$PROJECT_DIR$/results/screenpicture/20210811215454.png" />
-    <entry file="file://$PROJECT_DIR$/requirements.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" lean-forward="true" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/log.txt" />
-    <entry file="file://$PROJECT_DIR$/logs/log.txt" />
-    <entry file="file://$PROJECT_DIR$/tests/test.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="504">
-          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python36/Lib/logging/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="1060" selection-start-line="1060" selection-end-line="1060" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/configs/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="12" selection-start-line="13" selection-start-column="8" selection-end-line="13" selection-end-column="12" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test1.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="57" column="13" selection-start-line="57" selection-start-column="8" selection-end-line="57" selection-end-column="13" />
-          <folding>
-            <element signature="e#82#91#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/PC/pcAlerts.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-4859">
-          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
-          <folding>
-            <element signature="e#83#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/getConfig.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="46" selection-start-line="18" selection-start-column="40" selection-end-line="18" selection-end-column="46" />
-          <folding>
-            <element signature="e#83#102#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/getFileDirs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="87">
-          <caret line="9" column="6" selection-start-line="9" selection-start-column="6" selection-end-line="9" selection-end-column="65" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/glo.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-1698">
-          <caret line="8" column="23" selection-start-line="8" selection-start-column="6" selection-end-line="8" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/logs.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="20" column="51" lean-forward="true" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-          <folding>
-            <element signature="e#79#115#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/report.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="216">
-          <caret line="20" column="17" lean-forward="true" selection-start-line="20" selection-start-column="8" selection-end-line="20" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/results/screenpicture/20210901213621.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
@@ -809,9 +726,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-3360">
           <caret line="23" column="20" lean-forward="true" selection-start-line="23" selection-start-column="20" selection-end-line="23" selection-end-column="20" />
-          <folding>
-            <element signature="e#89#98#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -829,53 +743,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="59" lean-forward="true" selection-start-line="5" selection-start-column="59" selection-end-line="5" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test909">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-end-line="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test_gushiwen">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="21">
-          <caret line="1" column="10" selection-start-line="1" selection-start-column="10" selection-end-line="1" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/log">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/logs/errs">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/scripts/test900">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="8" selection-start-column="8" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/PC/pcWaitElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-63">
-          <caret line="110" column="8" selection-start-line="110" selection-start-column="8" selection-end-line="110" selection-end-column="8" />
-          <folding>
-            <element signature="e#88#167#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/PC/pcFindElement.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="218">
-          <caret line="175" column="8" selection-start-line="175" selection-start-column="8" selection-end-line="175" selection-end-column="8" />
-          <folding>
-            <element signature="e#88#157#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -923,63 +790,237 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme">
+    <entry file="file://$PROJECT_DIR$/scripts/test909">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="29" column="47" selection-start-line="29" selection-start-column="42" selection-end-line="29" selection-end-column="47" />
+        <state>
+          <caret selection-end-line="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="211">
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/methodMap.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="25" column="47" selection-start-line="25" selection-start-column="40" selection-end-line="25" selection-end-column="47" />
+        <state relative-caret-position="210">
+          <caret line="13" column="16" selection-start-line="13" selection-start-column="5" selection-end-line="13" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/entrance.py">
+    <entry file="file://$PROJECT_DIR$/tests/test900.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="11" lean-forward="true" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="14" />
+        <state relative-caret-position="378">
+          <caret line="24" selection-start-line="24" selection-end-line="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor />
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" lean-forward="true" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="299">
+          <caret line="54" column="3" selection-start-line="54" selection-start-column="1" selection-end-line="54" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/.PyCharm2018.2/system/python_stubs/-1611936468/builtins.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="5022" column="8" lean-forward="true" selection-start-line="5022" selection-start-column="8" selection-end-line="5026" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="185">
+          <caret line="66" column="29" selection-start-line="66" selection-start-column="29" selection-end-line="66" selection-end-column="29" />
           <folding>
-            <element signature="e#83#134#0" expanded="true" />
+            <element signature="e#82#91#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/commons/excelOperator.py">
+    <entry file="file://$PROJECT_DIR$/commons/PC/pcFindElement.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="158" column="25" selection-start-line="158" selection-start-column="8" selection-end-line="158" selection-end-column="25" />
+        <state relative-caret-position="469">
+          <caret line="142" column="24" selection-start-line="142" selection-start-column="19" selection-end-line="142" selection-end-column="24" />
           <folding>
-            <element signature="e#88#103#0" expanded="true" />
-            <marker date="1630826548957" expanded="true" signature="4936:6048" ph="..." />
-            <marker date="1630826548957" expanded="true" signature="6045:6048" ph="..." />
+            <element signature="e#88#157#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/errs">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="62" column="92" selection-start-line="62" selection-start-column="87" selection-end-line="62" selection-end-column="92" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/logs/log">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-505" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907212025report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="32" lean-forward="true" selection-start-line="10" selection-start-column="32" selection-end-line="10" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/PC/pcWaitElement.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="21">
+          <caret line="23" column="8" selection-start-line="23" selection-start-column="8" selection-end-line="23" selection-end-column="8" />
+          <folding>
+            <element signature="e#88#167#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907211636report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="66" lean-forward="true" selection-start-line="6" selection-start-column="66" selection-end-line="6" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/tests/test_gushiwen.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="423">
+          <caret line="28" column="56" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907212617report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="9" column="60" lean-forward="true" selection-start-line="9" selection-start-column="60" selection-end-line="9" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907212730report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="61" selection-start-line="9" selection-start-column="61" selection-end-line="9" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907213051report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907213510report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="58" lean-forward="true" selection-start-line="9" selection-start-column="58" selection-end-line="9" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907213751report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="5" column="57" lean-forward="true" selection-start-line="5" selection-start-column="57" selection-end-line="5" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907214537report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="59" selection-start-line="9" selection-start-column="59" selection-end-line="9" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test_gushiwen">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="59" lean-forward="true" selection-start-line="3" selection-start-column="59" selection-end-line="3" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/scripts/test900">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="42" selection-start-line="3" selection-start-column="32" selection-end-line="3" selection-end-column="42" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/webDriverOperator.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="420">
-          <caret line="23" column="39" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
+        <state relative-caret-position="320">
+          <caret line="274" column="12" selection-start-line="274" selection-start-column="12" selection-end-line="274" selection-end-column="71" />
           <folding>
             <element signature="e#91#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/tests/test_gushiwen.py">
+    <entry file="file://$PROJECT_DIR$/entrance.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="15" column="28" selection-start-line="15" selection-start-column="28" selection-end-line="15" selection-end-column="28" />
+        <state relative-caret-position="131">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="22" />
+          <folding>
+            <element signature="e#83#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907215245report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="4" lean-forward="true" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/excelOperator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="196" column="9" selection-start-line="196" selection-start-column="9" selection-end-line="196" selection-end-column="9" />
+          <folding>
+            <element signature="e#80#95#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907215807report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="168">
+          <caret line="8" column="38" lean-forward="true" selection-start-line="8" selection-start-column="38" selection-end-line="8" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210907215830report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="34" selection-start-line="9" selection-start-column="34" selection-end-line="9" selection-end-column="34" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/commons/common.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="297" column="28" lean-forward="true" selection-start-line="297" selection-start-column="28" selection-end-line="297" selection-end-column="28" />
+        <state relative-caret-position="313">
+          <caret line="421" selection-start-line="421" selection-end-line="421" />
           <folding>
             <element signature="e#80#89#0" expanded="true" />
           </folding>

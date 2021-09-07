@@ -13,7 +13,7 @@ from commons.browserOperator import BrowserOperator
 class Test(unittest.TestCase):
 
     filename = os.path.basename(__file__)
-    read, data_dict = get_data_dict(filename)
+    read, write, data_dict = get_data_dict(filename)
 
     def setUp(self):
         self.browser = BrowserOperator()
@@ -25,11 +25,11 @@ class Test(unittest.TestCase):
 
     @data(*data_dict)
     @unpack
-    def test_20210823210029(self, username, password):
+    def test_20210907220051(self, username, password):
         self.wdo.input_text('id', 'email', content=username)  # 输入账号
         self.wdo.input_text('id', 'pwd', content=password)  # 输入账号
-        self.wdo.input_text('id', 'pwd', content=Test.filename)  # 输入账号
-        self.wdo.input_text('id', 'pwd', content=password)  # 输入账号
+        self.wdo.save_input(tp='xp', element='//*[@id="aspnetForm"]/div[4]/div[5]/a[1]', filename=Test.filename, read=Test.read, write=Test.write)  # 输入账号
+        self.wdo.save_result(content='登录古诗文网站', filename=Test.filename, read=Test.read, write=Test.write)  # 输入账号
 
 
 if __name__ == '__main__':

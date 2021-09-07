@@ -1,3 +1,5 @@
-create=False
+create=True
 input={'id':'email', 'content':'$username'}#输入账号
 input={'id':'pwd', 'content':'$password'}#输入账号
+saveInput={'xp':'//*[@id="aspnetForm"]/div[4]/div[5]/a[1]'}#输入账号
+saveResult={'content':'登录古诗文网站'}#输入账号
