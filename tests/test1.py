@@ -61,7 +61,10 @@ def te():
 for dd in d:
     print(dd)
 
-print(d)
-s = 'sss'
-print(s.capitalize())
+lis = [11, 2, 3]
+l1, l2, l3 = lis
+print(lis.__contains__(1))
+l = """saveInput={'xp':'//*[#id="aspnetForm"]/div[4]/div[5]/a[1]'}#输入账号}"""
+for li in l.split('#', 2):
+    print(li)
 te()

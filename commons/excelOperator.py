@@ -193,6 +193,8 @@ class WriteExcel(Write):
         rows = self.sheet_name.max_row
         if row_x > rows or col_x > cols:
             raise KeyError("写入行位置大于最大行数or写入列位置大于最大列数")
+        row_x += 1  # 为了保持与 WriteXLS 的 post_cell 函数一致，这里需要加 1
+        col_x += 1
         val = self.sheet_name.cell(row=row_x, column=col_x).value
         if val is None:
             val = 'auto write:\n'
@@ -200,8 +202,6 @@ class WriteExcel(Write):
             val = val + '\nauto write:\n'
         else:
             val = val + '\n'
-        # row_x += 1  # 为了保持与 WriteXLS 的 post_cell 函数一致，这里需要加 1
-        # col_x += 1
         self.sheet_name.cell(row=row_x, column=col_x).value = val + value
         self.work_book.save(self.filename)
 
@@ -209,10 +209,11 @@ class WriteExcel(Write):
 if __name__ == "__main__":
     file_path = get_all_file(DATADIR)
     write = WriteExcel(file_path[0])
-    write.post_cell()
-    # read = ReadExcel(file_path[0])
+    read = ReadExcel(file_path[0])
     # print(read.get_cols(1, end_row=2))
-    # print(read.get_row_index(col_x=1, value='test_gushiwen.py'))
+    print(read.get_row_index(col_x=1, value='test_gushiwen.py'))
+    rows = read.get_row_index(col_x=1, value='test_gushiwen.py')
+    write.post_cell(row_x=rows[0], col_x=16, value='liyihong')
     # read = ReadXLS(file_path[0])
     # print(read.get_cols(1, end_row=2))#['用例编号', '', '', '', '', '', '', '', '', 'test_gushiwen.py']
     # print(read.get_rows(0))

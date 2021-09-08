@@ -23,7 +23,12 @@ METHODS = {
     "quitFrame": "self.wdo.quit_frame()",
     "parentFrame": "self.wdo.parent_frame()",
     "window": "self.wdo.window(index)",
-    "save": "self.wdo.save(tp, element, content)"
+    "save": "self.wdo.save(tp, element, content)",
+    "saveInput": "self.wdo.save_input()",
+    "saveResult": "self.wdo.save_result()"
 }
 
 ELE_TYPE = ['xp', 'id', 'css', 'cls', 'name', 'lk', 'plk', 'tag']
+
+EXCEL_METHODS = ['saveInput', 'saveResult']
+

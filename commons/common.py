@@ -8,10 +8,10 @@ import os
 import re
 from datetime import datetime
 
-from commons.excelOperator import ReadXLS, ReadExcel
+from commons.excelOperator import ReadXLS, ReadExcel, WriteExcel, WriteXLS
 from commons.getFileDirs import SCREENSHOTS, TESTS, SCRIPTS, DATADIR
 from commons.logs import Logging
-from commons.methodMap import METHODS, ELE_TYPE
+from commons.methodMap import METHODS, ELE_TYPE, EXCEL_METHODS
 from commons.glo import GolStatic
 
 logger = Logging()
@@ -40,7 +40,7 @@ def write_header(path):
     """
     str1 = """@ddt\nclass Test(unittest.TestCase):\n
     filename = os.path.basename(__file__)
-    data_dict = get_data_dict(filename)\n
+    read, write, data_dict = get_data_dict(filename)\n
     def setUp(self):
         self.browser = BrowserOperator()
         self.driver = self.browser.open_url()
@@ -166,37 +166,89 @@ def dispose_line(line, filename):
     :param filename:
     :return:
     """
-    if '=' in line:
-        method, dict_content = line.split('=')
-        method = method.strip()
-        contents = METHODS.get(method)
-        if '#' in dict_content:
-            dict_content, note = dict_content.split('#')
-            dict_content = eval(dict_content.strip())
-            tp, value = find_ele_type(dict_content)
-            tp = "'" + tp + "'"
-            value = "'" + value + "'"
-            r_contents = contents.replace('tp', tp, 1).replace('element', value, 1)
-            r_contents = find_content(dict_content, r_contents, filename)
-            r_contents = find_s_tp(dict_content, r_contents) + "  # " + note.strip()
+    try:
+        if '=' in line:
+            method, dict_content = line.split('=', 1)
+            method = method.strip()
+            print('method: ', method)
+            contents = METHODS.get(method)
+            if EXCEL_METHODS.__contains__(method):  # 需要写excel表
+                if '#' in dict_content:
+                    dict_content, note = dict_content.split('#')
+                    # dict_content = eval(dict_content.strip())
+                    r_contents = xls_dispose_line(dict_content, contents, filename) + "  # " + note.strip()
+                else:
+                    # dict_content = eval(dict_content.strip())
+                    r_contents = xls_dispose_line(dict_content, contents, filename)
+            else:  # 不需要写excel表
+                if '#' in dict_content:
+                    dict_content, note = dict_content.split('#')
+                    # dict_content = eval(dict_content.strip())
+                    r_contents = general_dispose_line(dict_content, contents, filename) + "  # " + note.strip()
+                else:
+                    # dict_content = eval(dict_content.strip())
+                    r_contents = general_dispose_line(dict_content, contents, filename)
+                print(r_contents)
+            return r_contents
+        elif '#' in line:
+            method, note = line.split('#')
+            method = method.strip()
+            print(METHODS.get(method) + "  # " + note.strip())
+            return METHODS.get(method) + "  # " + note.strip()
         else:
-            dict_content = eval(dict_content.strip())
-            tp, value = find_ele_type(dict_content)
-            tp = "'" + tp + "'"
-            value = "'" + value + "'"
-            r_contents = contents.replace('tp', tp, 1).replace('element', value, 1)
-            r_contents = find_content(dict_content, r_contents, filename)
-        print(r_contents)
-        return r_contents
-    elif '#' in line:
-        method, note = line.split('#')
-        method = method.strip()
-        print(METHODS.get(method) + "  # " + note.strip())
-        return METHODS.get(method) + "  # " + note.strip()
+            method = line.strip()
+            print(METHODS.get(method))
+            return METHODS.get(method)
+    except AttributeError:
+        logger.err().error('方法不存在')
+        raise AttributeError('Method does not exist')
+
+
+def xls_dispose_line(dict_content, contents, filename):
+    """
+    返回需要写excel的替换后的内容
+    :param dict_content:
+    :param contents:
+    :param filename:
+    :return:
+    """
+    dict_content = eval(dict_content.strip())
+    if len(dict_content) < 1:
+        raise KeyError('脚本中的dict不能为空')
+    tp, value = find_ele_type(dict_content)
+    if value is None:
+        r_contents = contents[:-1] + xls_find_content(dict_content, contents, filename) + ')'
     else:
-        method = line.strip()
-        print(METHODS.get(method))
-        return METHODS.get(method)
+        tp = "'" + tp + "'"
+        value = "'" + value + "'"
+        index = dict_content.get('index')
+        if index is None:
+            r_contents = contents[:-1] + 'tp=' + tp + ', element=' + value + \
+                         ', filename=Test.filename, read=Test.read, write=Test.write' + ')'
+        else:
+            r_contents = contents[:-1] + 'tp=' + tp + ', element=' + value + \
+                         ', filename=Test.filename, read=Test.read, write=Test.write' + ', index=' + index + ')'
+    return r_contents
+
+
+def general_dispose_line(dict_content, contents, filename):
+    """
+    返回不需要写excel的替换后的内容
+    :param dict_content:
+    :param contents:
+    :param filename:
+    :return:
+    """
+    dict_content = eval(dict_content.strip())
+    if len(dict_content) < 1:
+        raise KeyError('脚本中的dict不能为空')
+    tp, value = find_ele_type(dict_content)
+    tp = "'" + tp + "'"
+    value = "'" + value + "'"
+    r_contents = contents.replace('tp', tp, 1).replace('element', value, 1)
+    r_contents = find_content(dict_content, r_contents, filename)
+    r_contents = find_s_tp(dict_content, r_contents)
+    return r_contents
 
 
 def find_ele_type(dict_content):
@@ -213,7 +265,7 @@ def find_ele_type(dict_content):
             break
     if value is None:
         logger.err().error('定位类型传入错误')
-        raise KeyError("定位类型传入错误")
+        # raise KeyError("定位类型传入错误")
     return tp, value
 
 
@@ -259,6 +311,47 @@ def find_content(dict_content, contents, filename):
         return contents.replace('content', content, 1)
 
 
+def xls_find_content(dict_content, contents, filename):
+    """
+        返回替换后的content内容
+        :param dict_content:
+        :param contents:
+        :param filename:
+        :return:
+        """
+    content = dict_content.get('content')
+    if content is None:
+        return contents
+    else:
+        if content[0] == '$':  # 取excel表格数据
+            c = content.split('$')[-1]
+            content = 'content=' + c
+            GolStatic.set_case_temp(filename, c)
+            print('GolStatic.get_case_temp(file_name)', GolStatic.get_case_temp(filename))
+        elif content[0] == '@':  # 取脚本数据
+            # \w匹配字母数字及下划线
+            pattern = re.compile(r'^(@[\w]+\[[\w]+\]$)')
+            if pattern.match(content) is None:  # 取本脚本数据
+                c = content.split('@')[-1]
+                fc = 'f_' + c
+                content = 'content=' + fc
+                GolStatic.set_script_temp(filename, fc)
+            else:  # 取指定脚本数据
+                # 匹配返回 [(变量名，文件名)]
+                res = re.findall('^@([\w]+)\[(\w+)\]$', content)
+                fct = 'fa_' + res[0][0]
+                content = 'content=' + fct
+                key = filename + '_' + res[0][1]
+                GolStatic.set_script_temp(key, fct)
+        elif content[0] == '&':  # 存脚本数据
+            c = content.split('&')[-1]
+            content = 'content=' + "'" + filename + '&' + c + "'"
+            print("content = 'content=' + filename + '_' + c", content.split('&'))
+        else:  # 取传入数据
+            content = 'content=' + "'" + content + "'"
+        return content + ', filename=Test.filename, read=Test.read, write=Test.write'
+
+
 def find_s_tp(dict_content, contents):
     """
     替换s_tp的类型
@@ -294,8 +387,10 @@ def get_excel_data(path, filename):
     values = list()
     if os.path.splitext(path)[1] == '.xlsx':
         read = ReadExcel(path)
+        write = WriteExcel(path)
     elif os.path.splitext(path)[1] == '.xls':
         read = ReadXLS(path)
+        write = WriteXLS(path)
     else:
         logger.err().error('文件类型传入错误')
         raise KeyError("文件类型传入错误")
@@ -303,7 +398,7 @@ def get_excel_data(path, filename):
     if len(rows) > 0:
         for row in rows:
             values.append(read.get_cell(row, col_x=13))
-    return values
+    return [read, write, values]
 
 
 def get_data_dict(filename) -> list:
@@ -315,7 +410,8 @@ def get_data_dict(filename) -> list:
     data_dict = list()
     path = get_all_file(DATADIR)
     print(path)
-    xls_data = get_excel_data(path[0], filename)
+    excel_data = get_excel_data(path[0], filename)
+    xls_data = excel_data[2]
     if len(xls_data) > 0:
         for data in xls_data:
             d = dict()
@@ -358,7 +454,7 @@ def get_data_dict(filename) -> list:
                     d.update({script: GolStatic.get_file_temp(filename, script)})
             data_dict.append(d)
     print(data_dict)
-    return data_dict
+    return [excel_data[0], excel_data[1], data_dict]
 
 
 if __name__ == "__main__":
