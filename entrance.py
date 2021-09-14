@@ -11,7 +11,7 @@ from commons.report import TestRunner
 file_path = get_all_file(SCRIPTS)
 for file in file_path:
     write_file(file)
-test = TestRunner(title='古诗文')
+test = TestRunner()
 test.run()
 
 if __name__ == "__main__":
