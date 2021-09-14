@@ -76,3 +76,72 @@
 2021-09-07 21:58:07,467 ERROR [20764-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
 2021-09-07 21:58:30,585 ERROR [24364-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
 2021-09-07 22:00:51,838 ERROR [2232-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-08 22:01:19,040 ERROR [19464-MainThread] E:/project/UIframework/tests/test1.py test1.te line 59: 2111122
+2021-09-08 22:01:24,140 ERROR [18348-MainThread] E:/project/UIframework/tests/test1.py test1.te line 59: 2111122
+2021-09-08 22:01:34,741 ERROR [20384-MainThread] E:/project/UIframework/tests/test1.py test1.te line 59: 2111122
+2021-09-14 21:26:52,138 ERROR [8656-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-14 21:28:13,842 ERROR [10264-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-14 21:28:19,166 ERROR [10264-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:28:19,166 ERROR [10264-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:31:02,186 ERROR [16028-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-14 21:31:05,644 ERROR [16028-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:31:05,644 ERROR [16028-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:31:24,303 ERROR [16540-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-14 21:31:28,002 ERROR [16540-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:31:28,002 ERROR [16540-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:31:55,503 ERROR [10612-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-14 21:31:59,016 ERROR [10612-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 55: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:31:59,016 ERROR [10612-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 55: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:32:38,872 ERROR [26468-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-14 21:32:42,258 ERROR [26468-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 55: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:32:42,258 ERROR [26468-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 55: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:32:58,496 ERROR [2424-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-14 21:33:01,863 ERROR [2424-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 55: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:33:01,863 ERROR [2424-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 55: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:33:30,215 ERROR [27324-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-14 21:33:33,609 ERROR [27324-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:33:33,609 ERROR [27324-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:34:29,010 ERROR [26968-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-14 21:34:32,404 ERROR [26968-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:34:32,404 ERROR [26968-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:34:40,844 ERROR [26476-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-14 21:34:44,220 ERROR [26476-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:34:44,220 ERROR [26476-MainThread] E:\project\UIframework\commons\browserOperator.py browserOperator.open_url line 54: Message: session not created: This version of ChromeDriver only supports Chrome version 91
+Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\Google\Chrome\Application\chrome.exe
+
+2021-09-14 21:37:50,122 ERROR [26984-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-14 21:39:32,073 ERROR [21452-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误

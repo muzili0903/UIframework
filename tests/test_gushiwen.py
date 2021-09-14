@@ -25,7 +25,7 @@ class Test(unittest.TestCase):
 
     @data(*data_dict)
     @unpack
-    def test_20210907220051(self, username, password):
+    def test_20210914213932(self, username, password):
         self.wdo.input_text('id', 'email', content=username)  # 输入账号
         self.wdo.input_text('id', 'pwd', content=password)  # 输入账号
         self.wdo.save_input(tp='xp', element='//*[@id="aspnetForm"]/div[4]/div[5]/a[1]', filename=Test.filename, read=Test.read, write=Test.write)  # 输入账号

@@ -6,6 +6,7 @@
 """
 import os
 
+from commons.getConfig import Config
 from commons.glo import GolStatic
 from commons.logs import Logging
 """
@@ -68,3 +69,6 @@ l = """saveInput={'xp':'//*[#id="aspnetForm"]/div[4]/div[5]/a[1]'}#输入账号}
 for li in l.split('#', 2):
     print(li)
 te()
+conf = Config()
+print(conf.get_config('report', 'envir1onment'))
+print(conf.get_config('report', 'envir1onment'))
