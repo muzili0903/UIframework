@@ -1,54 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="7d814628-a947-42fa-ae05-2df4865c3da0" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/tests/pwd.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/test2.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/commons/report.py" beforeDir="false" afterPath="$PROJECT_DIR$/commons/report.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/configs/config.ini" beforeDir="false" afterPath="$PROJECT_DIR$/configs/config.ini" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datas/案例模板.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/datas/案例模板.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/drivers/chromedriver.exe" beforeDir="false" afterPath="$PROJECT_DIR$/drivers/chromedriver.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/entrance.py" beforeDir="false" afterPath="$PROJECT_DIR$/entrance.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/errs" beforeDir="false" afterPath="$PROJECT_DIR$/logs/errs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/logs/log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210901212906report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210901213227report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210901213309report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210901213548report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210901214250report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210901214618report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210901215323report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210901220420report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210901220612report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210902195948report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210902201403report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907211636report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907212025report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907212617report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907212730report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907213051report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907213510report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907213751report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907213951report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907214059report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907214537report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907214622report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907215245report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907215807report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907215830report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/reports/古诗文20210907220051report.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/screenpicture/20210901213621.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/screenpicture/20210901214323.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/screenpicture/20210901214650.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/screenpicture/20210901215355.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/screenpicture/20210901220453.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/screenpicture/20210901220624.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/screenpicture/20210902200001.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/results/screenpicture/20210902201416.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test1.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test1.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests/test_gushiwen.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/test_gushiwen.py" afterDir="false" />
-    </list>
+    <list default="true" id="7d814628-a947-42fa-ae05-2df4865c3da0" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -105,8 +58,8 @@
           <entry key="909" value="1" />
           <entry key="errs" value="10" />
           <entry key="gushiwen" value="1" />
-          <entry key="html" value="46" />
-          <entry key="ini" value="8" />
+          <entry key="html" value="47" />
+          <entry key="ini" value="9" />
           <entry key="log" value="10" />
           <entry key="md" value="1" />
           <entry key="png" value="8" />
@@ -126,9 +79,9 @@
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="HTML" value="46" />
+          <entry key="HTML" value="47" />
           <entry key="Image" value="8" />
-          <entry key="Ini" value="8" />
+          <entry key="Ini" value="9" />
           <entry key="Markdown" value="1" />
           <entry key="PLAIN_TEXT" value="82" />
           <entry key="Python" value="385" />
@@ -161,83 +114,7 @@
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/webDriverOperator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-              <folding>
-                <element signature="e#91#143#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/entrance.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="294">
-              <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
-              <folding>
-                <element signature="e#83#134#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/report.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="541">
-              <caret line="34" selection-start-line="34" selection-end-line="34" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/getConfig.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="232">
-              <caret line="28" column="39" selection-start-line="28" selection-start-column="32" selection-end-line="28" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/browserOperator.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="37" column="42" selection-start-line="37" selection-start-column="36" selection-end-line="37" selection-end-column="42" />
-              <folding>
-                <element signature="e#89#98#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/commons/getFileDirs.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="189">
-              <caret line="15" column="13" selection-start-line="15" selection-end-line="15" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/tests/test1.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
-              <folding>
-                <element signature="e#82#91#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -352,7 +229,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-9" />
     <option name="y" value="-9" />
     <option name="width" value="978" />
@@ -371,21 +248,6 @@
             <path>
               <item name="UIframework" type="b2602c69:ProjectViewProjectNode" />
               <item name="UIframework" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIframework" type="462c0819:PsiDirectoryNode" />
-              <item name="datas" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIframework" type="462c0819:PsiDirectoryNode" />
-              <item name="drivers" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="UIframework" type="b2602c69:ProjectViewProjectNode" />
-              <item name="UIframework" type="462c0819:PsiDirectoryNode" />
-              <item name="results" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -607,7 +469,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.32956153" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.39660057" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39660057" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.41301274" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -616,7 +478,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
       <window_info anchor="bottom" id="Database Changes" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" order="11" weight="0.3286119" />
+      <window_info anchor="bottom" id="Terminal" order="11" visible="true" weight="0.3286119" />
       <window_info anchor="bottom" id="Python Console" order="12" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -675,9 +537,6 @@
     </expressions>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/results/screenpicture/20210901220624.png">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/results/reports/古诗文20210902195948report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -948,7 +807,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/tests/test1.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
+        <state relative-caret-position="274">
           <caret line="73" column="38" selection-start-line="73" selection-start-column="38" selection-end-line="73" selection-end-column="38" />
           <folding>
             <element signature="e#82#91#0" expanded="true" />
@@ -1019,23 +878,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/configs/config.ini">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" selection-start-line="14" selection-end-line="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/commons/webDriverOperator.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
-          <folding>
-            <element signature="e#91#143#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/results/reports/'古诗文测试报告'20210914212652report.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1049,6 +891,30 @@
           <caret line="14" column="10" lean-forward="true" selection-start-line="14" selection-start-column="10" selection-end-line="14" selection-end-column="10" />
           <folding>
             <element signature="e#83#134#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/results/reports/'古诗文测试报告'20210914213932report.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="40" lean-forward="true" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/configs/config.ini">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="15" column="8" lean-forward="true" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/commons/webDriverOperator.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="56" column="11" lean-forward="true" selection-start-line="56" selection-start-column="11" selection-end-line="56" selection-end-column="11" />
+          <folding>
+            <element signature="e#91#143#0" expanded="true" />
           </folding>
         </state>
       </provider>
