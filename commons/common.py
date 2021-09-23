@@ -136,9 +136,14 @@ def dispose_function(filename):
     :param filename: 文件名称
     :return:
     """
-    function_name = """
+    read, write, data_dict = get_data_dict(filename)
+    if len(data_dict) > 0:
+        function_name = """
     @data(*data_dict)
     @unpack
+    def test_%s(self""" % (datetime.now().strftime('%Y%m%d%H%M%S'))
+    else:
+        function_name = """
     def test_%s(self""" % (datetime.now().strftime('%Y%m%d%H%M%S'))
     case_list = GolStatic.get_case_temp(filename)
     if case_list is not None:
@@ -462,5 +467,6 @@ if __name__ == "__main__":
     for file in file_path:
         write_file(file)
     file_path = get_all_file(DATADIR)
-    print(get_excel_data(file_path[0], 'test'))
-    get_data_dict('test')
+    data = get_excel_data(file_path[0], 'test_api.py')
+    print('get_excel_data:', data)
+    get_data_dict('test_api.py')

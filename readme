@@ -49,6 +49,8 @@ quitFrame -> 退出frame,回到主页面
 parentFrame -> 返回上一层frame
 window -> 切换窗口
 save -> 保存页面元素值
+saveInput -> 保存到excel表的输入数据列
+saveResult -> 保存到excel表的实际结果列
 函数传参个数可以查看 \UIframework\commons\methodMap.py 中的 METHODS 字典
 ###############################################################################
 定位方式有：

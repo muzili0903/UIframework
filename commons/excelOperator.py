@@ -124,7 +124,7 @@ class ReadExcel(Read):
         return values
 
     def get_cols(self, col_x, start_row=1, end_row=None):
-        """ ['用例编号', '', '', '', '', '', '', '', '', 'test_gushiwen.py']
+        """ ['用例编号', '', '', '', '', '', '', '', '', 'tesst_gushiwen.py']
         获取某一列的所有值
         :param col_x:
         :param start_row: 默认从第1行开始读取 从1行开始计算
@@ -211,11 +211,11 @@ if __name__ == "__main__":
     write = WriteExcel(file_path[0])
     read = ReadExcel(file_path[0])
     # print(read.get_cols(1, end_row=2))
-    print(read.get_row_index(col_x=1, value='test_gushiwen.py'))
-    rows = read.get_row_index(col_x=1, value='test_gushiwen.py')
+    print(read.get_row_index(col_x=1, value='tesst_gushiwen.py'))
+    rows = read.get_row_index(col_x=1, value='tesst_gushiwen.py')
     write.post_cell(row_x=rows[0], col_x=16, value='liyihong')
     # read = ReadXLS(file_path[0])
-    # print(read.get_cols(1, end_row=2))#['用例编号', '', '', '', '', '', '', '', '', 'test_gushiwen.py']
+    # print(read.get_cols(1, end_row=2))#['用例编号', '', '', '', '', '', '', '', '', 'tesst_gushiwen.py']
     # print(read.get_rows(0))
     # print(read.get_cell(1, col_x=13))
     """

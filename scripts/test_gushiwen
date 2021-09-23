@@ -1,4 +1,4 @@
-create=True
+create=False
 input={'id':'email', 'content':'$username'}#输入账号
 input={'id':'pwd', 'content':'$password'}#输入账号
 saveInput={'xp':'//*[@id="aspnetForm"]/div[4]/div[5]/a[1]'}#输入账号
