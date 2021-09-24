@@ -1,4 +1,6 @@
-create=False
+create=True
 click={'xp': '//*[@id="app"]/div/div[2]/div[3]/div[1]'}#点击案例管理
 click={'xp': '//*[@id="app"]/div/div[2]/div[3]/div[3]'}#点击案例自动生成
 click={'xp': '//*[@id="app"]/div/div[3]/div[5]/div[2]/div[1]'}#点击新增
+assertIn={'cont': '12', 'content': '@content', 'msg': '12313'}#点击新增
+assertEqual={'cont': '12', 'content': '12', 'msg': '12313'}#点击新增

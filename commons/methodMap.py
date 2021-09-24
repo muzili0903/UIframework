@@ -25,10 +25,13 @@ METHODS = {
     "window": "self.wdo.window(index)",
     "save": "self.wdo.save(tp, element, content)",
     "saveInput": "self.wdo.save_input()",
-    "saveResult": "self.wdo.save_result()"
+    "saveResult": "self.wdo.save_result()",
+    "assertIn": "self.assertIn(cont, content, msg=None)",
+    "assertEqual": "self.assertEqual(cont, content, msg=None)"
 }
 
 ELE_TYPE = ['xp', 'id', 'css', 'cls', 'name', 'lk', 'plk', 'tag']
 
 EXCEL_METHODS = ['saveInput', 'saveResult']
 
+ASSERT_METHODS = ['assertIn', 'assertEqual']

@@ -28,6 +28,12 @@ save={'id':'email', 'content':'&content'}#保存元素值
 'content':'&content' -> 关键字 ：&content (& : 保存变量修饰符, content : 代表在页面上获取值并保存在content变量中)
 若本脚本需要用到刚保存的变量值，可以使用 @content 的方式获取
 若其它脚本需要用到刚保存的变量值，可以使用 @content[file_name] 的方式获取
+
+示例4：断言
+assertIn={'cont': '12', 'content': '123', 'msg': '12313'}
+表示 cont 的值 在 content 的值内，如果在，则断言成功，如果不在，则断言失败，抛出 msg 的值
+assertIn={'cont': '12', 'content': '$content', 'msg': '12313'}
+content的值也可以从变量值获取
 ###############################################################################
 keyword函数有：
 clearAndInput -> 清除默认值，输入新内容

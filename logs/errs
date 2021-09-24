@@ -145,3 +145,14 @@ Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\
 
 2021-09-14 21:37:50,122 ERROR [26984-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
 2021-09-14 21:39:32,073 ERROR [21452-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 267: 定位类型传入错误
+2021-09-23 21:44:42,979 ERROR [27516-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 275: 定位类型传入错误
+2021-09-23 21:45:26,549 ERROR [9856-MainThread] E:\project\UIframework\commons\common.py common.find_ele_type line 275: 定位类型传入错误
+2021-09-23 21:45:52,160 ERROR [9856-MainThread] E:\project\UIframework\commons\PC\pcWaitElement.py pcWaitElement.display_id line 48: 
+错误截图地址: E:\project\UIframework\results\screenpicture\20210923214552.png 
+
+2021-09-23 21:45:52,160 ERROR [9856-MainThread] E:\project\UIframework\commons\PC\pcWaitElement.py pcWaitElement.display_id line 48: 
+错误截图地址: E:\project\UIframework\results\screenpicture\20210923214552.png 
+
+2021-09-23 22:01:11,247 ERROR [21652-MainThread] E:/project/UIframework/tests/test1.py test1.te line 59: 2111122
+2021-09-23 22:01:21,555 ERROR [27960-MainThread] E:/project/UIframework/tests/test1.py test1.te line 59: 2111122
+2021-09-24 21:18:15,492 ERROR [32340-MainThread] E:/project/UIframework/commons/common.py common.find_ele_type line 280: 定位类型传入错误

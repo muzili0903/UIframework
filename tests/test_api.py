@@ -23,11 +23,14 @@ class Test(unittest.TestCase):
     def tearDown(self):
         self.browser.close_browser()
 
-    def test_20210923212430(self):
+    @data(*data_dict)
+    @unpack
+    def test_20210924233029(self, f_content):
         self.wdo.click('xp', '//*[@id="app"]/div/div[2]/div[3]/div[1]')  # 点击案例管理
         self.wdo.click('xp', '//*[@id="app"]/div/div[2]/div[3]/div[3]')  # 点击案例自动生成
         self.wdo.click('xp', '//*[@id="app"]/div/div[3]/div[5]/div[2]/div[1]')  # 点击新增
-        self.assertIn('1', '2', 'true')
+        self.assertIn('12', f_content, msg='12313')  # 点击新增
+        self.assertEqual('12', '12', msg='12313')  # 点击新增
 
 
 if __name__ == '__main__':
