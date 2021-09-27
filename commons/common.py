@@ -111,7 +111,7 @@ def write_file(read_file):
         f_read.close()
         return
     filename = TESTS + filename
-    print('filename: ', filename)
+    print('filename:  ', filename)
     write_header(filename)
     write_case(f_read, filename)
     write_main(filename)

@@ -23,7 +23,7 @@ class Test(unittest.TestCase):
     def tearDown(self):
         self.browser.close_browser()
 
-    def test_20210927214054(self):
+    def test_20210927214223(self):
         self.wdo.click('xp', '//*[@id="app"]/div/div[2]/div[3]/div[1]')  # 点击案例管理
         self.wdo.click('xp', '//*[@id="app"]/div/div[2]/div[3]/div[3]')  # 点击案例自动生成
         self.wdo.click('xp', '//*[@id="app"]/div/div[3]/div[5]/div[2]/div[1]')  # 点击新增
