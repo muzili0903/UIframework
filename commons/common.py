@@ -70,6 +70,8 @@ def write_case(f_read, path):
     f_name = os.path.split(path)[1]
     lines = str()
     for line in f_read.readlines():
+        if line.strip() == '':
+            continue
         line = "\n        " + dispose_line(line.strip(), f_name)
         lines = lines + line
     function_name = dispose_function(f_name)

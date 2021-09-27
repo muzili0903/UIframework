@@ -2,5 +2,9 @@ create=True
 click={'xp': '//*[@id="app"]/div/div[2]/div[3]/div[1]'}#点击案例管理
 click={'xp': '//*[@id="app"]/div/div[2]/div[3]/div[3]'}#点击案例自动生成
 click={'xp': '//*[@id="app"]/div/div[3]/div[5]/div[2]/div[1]'}#点击新增
-assertIn={'cont': '12', 'content': '@content', 'msg': '12313'}#点击新增
-assertEqual={'cont': '12', 'content': '12', 'msg': '12313'}#点击新增
+click={'xp':'//*[@id="app"]/div/div[3]/div[5]/div[3]/div[3]/div/div/div[2]/div[1]/form/div[1]/div[7]/div/div[2]/div/div[2]/span/i'}
+click={'xp':'/html/body/div[2]/div/div[2]'}#oracle
+
+input={'xp':'//*[@id="app"]/div/div[3]/div[5]//div/div/div[2]/div[1]/form/div[1]/div[2]//div/input', 'content': '192.168.32.123'}
+input={'xp':'//*[@id="app"]/div/div[3]/div[5]/div[3]/div[3]/div/div/div[2]/div[1]/form/div[1]/div[3]/div/div[2]/div/input', 'content': '3306'}
+

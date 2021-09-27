@@ -85,7 +85,6 @@ class WriteXLS(Write):
     """写.xls文件"""
 
     def __init__(self, filename, sheet_name='Sheet1'):
-        xlwt.Workbook()
         pass
 
     def post_cell(self, row_x=1, col_x=15, value='test12'):
@@ -208,11 +207,11 @@ class WriteExcel(Write):
 
 if __name__ == "__main__":
     file_path = get_all_file(DATADIR)
-    write = WriteExcel(file_path[0])
-    read = ReadExcel(file_path[0])
+    write = WriteXLS(file_path[1])
+    read = ReadXLS(file_path[1])
     # print(read.get_cols(1, end_row=2))
-    print(read.get_row_index(col_x=1, value='tesst_gushiwen.py'))
-    rows = read.get_row_index(col_x=1, value='tesst_gushiwen.py')
+    print(read.get_row_index(col_x=1, value='test_gushiwen.py'))
+    rows = read.get_row_index(col_x=1, value='test_gushiwen.py')
     write.post_cell(row_x=rows[0], col_x=16, value='liyihong')
     # read = ReadXLS(file_path[0])
     # print(read.get_cols(1, end_row=2))#['用例编号', '', '', '', '', '', '', '', '', 'tesst_gushiwen.py']

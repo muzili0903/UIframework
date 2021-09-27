@@ -156,3 +156,13 @@ Current browser version is 93.0.4577.63 with binary path C:\Program Files (x86)\
 2021-09-23 22:01:11,247 ERROR [21652-MainThread] E:/project/UIframework/tests/test1.py test1.te line 59: 2111122
 2021-09-23 22:01:21,555 ERROR [27960-MainThread] E:/project/UIframework/tests/test1.py test1.te line 59: 2111122
 2021-09-24 21:18:15,492 ERROR [32340-MainThread] E:/project/UIframework/commons/common.py common.find_ele_type line 280: 定位类型传入错误
+2021-09-27 21:04:17,456 ERROR [18492-MainThread] E:\project\UIframework\commons\PC\pcWaitElement.py pcWaitElement.display_xpath line 135: 
+错误截图地址: E:\project\UIframework\results\screenpicture\20210927210417.png 
+
+2021-09-27 21:38:55,697 ERROR [27596-MainThread] E:/project/UIframework/tests/test1.py test1.te line 59: 2111122
+2021-09-27 21:39:09,693 ERROR [29028-MainThread] E:/project/UIframework/tests/test1.py test1.te line 60: 2111122
+2021-09-27 21:39:19,902 ERROR [13020-MainThread] E:/project/UIframework/tests/test1.py test1.te line 60: 2111122
+2021-09-27 21:39:27,078 ERROR [33784-MainThread] E:/project/UIframework/tests/test1.py test1.te line 60: 2111122
+2021-09-27 21:39:38,981 ERROR [30692-MainThread] E:/project/UIframework/tests/test1.py test1.te line 60: 2111122
+2021-09-27 21:39:47,277 ERROR [31260-MainThread] E:/project/UIframework/tests/test1.py test1.te line 60: 2111122
+2021-09-27 21:39:53,201 ERROR [13536-MainThread] E:/project/UIframework/tests/test1.py test1.te line 60: 2111122

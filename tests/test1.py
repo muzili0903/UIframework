@@ -9,6 +9,7 @@ import os
 from commons.getConfig import Config
 from commons.glo import GolStatic
 from commons.logs import Logging
+
 """
 GolStatic.set_file_temp('test1', 'test', '1')
 GolStatic.set_file_temp('test1', 'test1', '11')
@@ -74,3 +75,8 @@ print(conf.get_config('report', 'envir1onment'))
 print(conf.get_config('report', 'envir1onment'))
 test = str()
 print('test:', test)
+
+s = '  '
+if s.strip() == '':
+    print('s is null')
+print(s.strip())
