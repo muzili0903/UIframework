@@ -11,7 +11,7 @@ from datetime import datetime
 from commons.excelOperator import ReadXLS, ReadExcel, WriteExcel, WriteXLS
 from commons.getFileDirs import SCREENSHOTS, TESTS, SCRIPTS, DATADIR
 from commons.logs import Logging
-from commons.methodMap import METHODS, ELE_TYPE, EXCEL_METHODS
+from commons.methodMap import METHODS, ELE_TYPE, EXCEL_METHODS, ASSERT_METHODS
 from commons.glo import GolStatic
 
 logger = Logging()
@@ -70,6 +70,8 @@ def write_case(f_read, path):
     f_name = os.path.split(path)[1]
     lines = str()
     for line in f_read.readlines():
+        if line.strip() == '':
+            continue
         line = "\n        " + dispose_line(line.strip(), f_name)
         lines = lines + line
     function_name = dispose_function(f_name)
@@ -136,9 +138,17 @@ def dispose_function(filename):
     :param filename: 文件名称
     :return:
     """
-    function_name = """
+    try:
+        read, write, data_dict = get_data_dict(filename)
+    except KeyError:
+        raise KeyError("excel文件内容取值写法有错，请按照格式书写，key=value")
+    if len(data_dict) > 0:
+        function_name = """
     @data(*data_dict)
     @unpack
+    def test_%s(self""" % (datetime.now().strftime('%Y%m%d%H%M%S'))
+    else:
+        function_name = """
     def test_%s(self""" % (datetime.now().strftime('%Y%m%d%H%M%S'))
     case_list = GolStatic.get_case_temp(filename)
     if case_list is not None:
@@ -180,6 +190,13 @@ def dispose_line(line, filename):
                 else:
                     # dict_content = eval(dict_content.strip())
                     r_contents = xls_dispose_line(dict_content, contents, filename)
+            elif ASSERT_METHODS.__contains__(method):  # 直接写，不需要替换
+                if '#' in dict_content:
+                    dict_content, note = dict_content.split('#')
+                    r_contents = assert_dispose_line(dict_content, contents, filename) + "  # " + note.strip()
+                else:
+                    r_contents = assert_dispose_line(dict_content, contents, filename)
+                    # print('ASSERT_METHODS.__contains__(method): ', dict_content)
             else:  # 不需要写excel表
                 if '#' in dict_content:
                     dict_content, note = dict_content.split('#')
@@ -228,6 +245,27 @@ def xls_dispose_line(dict_content, contents, filename):
         else:
             r_contents = contents[:-1] + 'tp=' + tp + ', element=' + value + \
                          ', filename=Test.filename, read=Test.read, write=Test.write' + ', index=' + index + ')'
+    return r_contents
+
+
+def assert_dispose_line(dict_content, contents, filename):
+    """
+    返回assert相关替换后的内容
+    :param dict_content:
+    :param contents:
+    :param filename:
+    :return:
+    """
+    dict_content = eval(dict_content.strip())
+    if len(dict_content) < 1:
+        raise KeyError('脚本中的dict不能为空')
+    cont = "'" + dict_content.get('cont') + "'"
+    r_contents = contents.replace('cont', cont, 1)
+    r_contents = find_content(dict_content, r_contents, filename).replace('content=', '', 1)
+    msg = dict_content.get('msg')
+    if msg is not None:
+        msg = "'" + msg + "'"
+        r_contents = r_contents.replace('None', msg, 1)
     return r_contents
 
 
@@ -453,7 +491,7 @@ def get_data_dict(filename) -> list:
                     # TODD 应该把 fa_ 去掉再取值把？
                     d.update({script: GolStatic.get_file_temp(filename, script)})
             data_dict.append(d)
-    print(data_dict)
+    print('data_dict: ', data_dict)
     return [excel_data[0], excel_data[1], data_dict]
 
 
@@ -462,5 +500,6 @@ if __name__ == "__main__":
     for file in file_path:
         write_file(file)
     file_path = get_all_file(DATADIR)
-    print(get_excel_data(file_path[0], 'test'))
-    get_data_dict('test')
+    # data = get_excel_data(file_path[0], 'test_api.py')
+    # print('get_excel_data:', data)
+    # get_data_dict('test_api.py')

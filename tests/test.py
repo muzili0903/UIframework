@@ -26,6 +26,7 @@ class Test(unittest.TestCase):
     def test_1(self, code, content):
         print(content)
         print(code)
+        self.assertIn('2', '111', '再')
 
 
 if __name__ == "__main__":
