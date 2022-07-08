@@ -42,6 +42,12 @@ class Logging(object):
         self._logs(file=logs, level=logging.ERROR, formatter=formatter)
         return self.logger
 
+    def get_logger(self)
+        return self.logger
+
+
+log = Logging()
+logger = log.get_logger()
 
 if __name__ == '__main__':
     pass

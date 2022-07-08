@@ -10,8 +10,9 @@ from commons.PC.pcFindElement import PCFindElements
 from commons.PC.pcWaitElement import PCWaitElement
 from commons.glo import GolStatic
 from commons.logs import Logging
+from commons.logs import logger
 
-logger = Logging()
+# logger = Logging()
 
 
 class WebDriverOperator(object):
@@ -30,6 +31,7 @@ class WebDriverOperator(object):
         :param element:
         :return:
         """
+        logger.info("test_logger")
         tp = tp.lower()
         ele = False
         if tp == 'xp':
@@ -54,7 +56,7 @@ class WebDriverOperator(object):
         elif tp == 'tag':
             ele = self.find.by_tag(element)
         else:
-            logger.err().error('定位类型不存在')
+            logger.err('定位类型不存在')
             raise KeyError('type not exist')
         if ele is not False and index is None:
             return ele[0]
